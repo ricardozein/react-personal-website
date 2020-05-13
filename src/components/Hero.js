@@ -38,7 +38,7 @@ function Hero() {
           }
         `}
       >
-        Hey, I'm
+        Hi! I'm
         <strong
           css={css`
             text-transform: uppercase;
