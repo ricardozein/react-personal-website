@@ -8,10 +8,13 @@ function Hero() {
       className="Hero"
       css={css`
         align-items: flex-end;
-        background: url(${heroImage}) no-repeat 50% 80% / cover;
+        background: url(${heroImage}) no-repeat center bottom / cover fixed;
         display: flex;
         justify-content: center;
-        min-height: 75vh;
+        min-height: 80vh;
+        @media (max-width: 768px) {
+          align-items: flex-start;
+        }
       `}
     >
       <h1
@@ -27,6 +30,12 @@ function Hero() {
           left: -12vw;
           top: -4vh;
           font-family: "Raleway", sans-serif;
+          @media (max-width: 768px) {
+            left: 0;
+            top: 5vh;
+            font-size: 1.5rem;
+            width: 80vw;
+          }
         `}
       >
         Hey, I'm
@@ -36,6 +45,9 @@ function Hero() {
             font-style: normal;
             font-size: 3.5rem;
             font-weight: bold;
+            @media (max-width: 768px) {
+              font-size: 2.5rem;
+            }
           `}
         >
           Ricardo Zein
