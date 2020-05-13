@@ -1,4 +1,3 @@
-import React from 'react';
 import '../assets/css/Website.scss';
 import { Link } from 'react-router-dom';
 /** @jsx jsx */ import { css, jsx } from '@emotion/core'
@@ -12,7 +11,7 @@ function Nav() {
     <nav className="main-nav">
       <div className="col">
         <Link to="/" css={css`&:hover { text-decoration: none; }`}>
-        <h1 className="main-nav__logo">Ricardo <strong>Zein</strong></h1>
+          <h1 className="main-nav__logo">Ricardo <strong>Zein</strong></h1>
         </Link>
       </div>
       <div className="col">
@@ -23,7 +22,7 @@ function Nav() {
           <Link style={navStyle} to="/contact">
             <li className="navigation__item">Contact</li>
           </Link>
-      </ul>
+        </ul>
       </div>
     </nav>
   );

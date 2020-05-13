@@ -1,9 +1,17 @@
-import React from 'react';
-import './assets/css/Website.scss';
-import Header from  './components/Header';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
+import "./assets/css/Website.scss";
+import Header from "./components/Header";
+import Home from "./pages/Home-page";
+import About from "./pages/About-page";
+import Contact from "./pages/Contact-page";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import WebFontLoader from "webfontloader";
+
+WebFontLoader.load({
+  google: {
+    families: ["Raleway:400,500,700:latin-ext"],
+  },
+});
 
 function Website() {
   return (
@@ -19,11 +27,5 @@ function Website() {
     </Router>
   );
 }
-
-const Home = () => (
-  <div>
-    <h1>Home</h1>
-  </div>
-);
 
 export default Website;
