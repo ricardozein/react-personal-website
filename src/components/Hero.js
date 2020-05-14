@@ -25,7 +25,7 @@ function Hero() {
           font-size: 2rem;
           flex-direction: column;
           text-align: center;
-          text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.6);
+          text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.6);
           position: relative;
           left: -12vw;
           top: -4vh;
@@ -45,8 +45,30 @@ function Hero() {
             font-style: normal;
             font-size: 3.5rem;
             font-weight: bold;
+            &:before {
+              content: "___";
+              display: inline-block;
+              position: absolute;
+              transform: translateY(50%);
+              top: -21%;
+              left: -28%;
+            }
+            &:after {
+              content: "___";
+              display: inline-block;
+              position: absolute;
+              transform: translateY(50%);
+              top: -21%;
+              right: -28%;
+            }
             @media (max-width: 768px) {
               font-size: 2.5rem;
+              &:before {
+                display: none;
+              }
+              &:after {
+                display: none;
+              }
             }
           `}
         >
