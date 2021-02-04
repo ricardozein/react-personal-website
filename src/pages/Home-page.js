@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/Website.scss";
 import Hero from "../components/Hero";
 import styled from "@emotion/styled";
+import { Helmet } from "react-helmet";
 
 const AboutMe = styled.article`
   padding: 3rem 0;
@@ -35,6 +36,9 @@ const AboutMe = styled.article`
 function Home() {
   return (
     <div className='homepage'>
+      <Helmet>
+        <title>Ricardo Zein</title>
+      </Helmet>
       <Hero />
       <AboutMe>
         <div className='container'>
