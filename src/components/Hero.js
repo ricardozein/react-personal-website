@@ -5,7 +5,7 @@ import heroImage from "../assets/images/profile_porto_3.jpg";
 function Hero() {
   return (
     <div
-      className="Hero"
+      className='Hero'
       css={css`
         align-items: flex-end;
         background: url(${heroImage}) no-repeat center bottom / cover fixed;
@@ -18,7 +18,7 @@ function Hero() {
       `}
     >
       <h1
-        className="Hero__greetings"
+        className='Hero__greetings'
         css={css`
           color: #ffffff;
           display: flex;
