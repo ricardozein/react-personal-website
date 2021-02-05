@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 /** @jsx jsx */ import { css, jsx } from "@emotion/core";
 
 function Nav() {
-  const navStyle = {
-    color: "#ffffff",
-  };
+  // const navStyle = {
+  //   color: "#ffffff",
+  // };
 
   return (
     <nav className='main-nav'>
