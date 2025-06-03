@@ -1,6 +1,6 @@
 import "../assets/css/Website.scss";
 import { Link } from "react-router-dom";
-/** @jsx jsx */ import { css, jsx } from "@emotion/core";
+import { css } from "@emotion/react";
 
 function Nav() {
   // const navStyle = {

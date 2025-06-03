@@ -1,6 +1,5 @@
-import React from "react";
 import "../assets/css/Website.scss";
-import Nav from "./Nav";
+import Nav from "./Nav.jsx";
 
 function Header() {
   return (

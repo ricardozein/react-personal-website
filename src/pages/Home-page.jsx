@@ -1,8 +1,7 @@
-import React from "react";
 import "../assets/css/Website.scss";
-import Hero from "../components/Hero";
+import Hero from "../components/Hero.jsx";
 import styled from "@emotion/styled";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const AboutMe = styled.article`
   padding: 3rem 0;

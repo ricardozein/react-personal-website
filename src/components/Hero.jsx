@@ -1,6 +1,6 @@
 import "../assets/css/Website.scss";
 import heroImage from "../assets/images/profile_porto_3.jpg";
-/** @jsx jsx */ import { css, jsx } from "@emotion/core";
+import { css } from "@emotion/react";
 
 function Hero() {
   return (
