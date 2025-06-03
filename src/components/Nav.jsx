@@ -23,16 +23,16 @@ function Nav() {
           </h1>
         </Link>
       </div>
-      {/* <div className="col">
+      <div className="col">
         <ul className="main-nav__list">
-          <Link style={navStyle} to="/about">
+          <Link to="/about">
             <li className="navigation__item">About</li>
           </Link>
-          <Link style={navStyle} to="/contact">
+          <Link to="/contact">
             <li className="navigation__item">Contact</li>
           </Link>
         </ul>
-      </div> */}
+      </div>
     </nav>
   );
 }

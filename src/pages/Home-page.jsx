@@ -53,12 +53,16 @@ function Home() {
               </p>
 
               <p>
-                Currently, I'm working as a Team Manager remotely from Porto,
-                Portugal.
+                Currently, I'm working as a Team Manager specializing in DevOps, 
+                Go-to-Market strategies, and complex project management remotely 
+                from Porto, Portugal. I lead cross-functional teams while maintaining 
+                hands-on involvement in strategic technology initiatives.
               </p>
 
               <p>
-                If you would like to get in touch, the best place to find me is
+                If you would like to get in touch, you can reach me at{" "}
+                <a href='mailto:ricardozein@gmail.com'>ricardozein@gmail.com</a>{" "}
+                or connect with me on
                 <a href='https://www.linkedin.com/in/ricardozein/'>
                   {" "}
                   LinkedIn.
