@@ -156,7 +156,7 @@ export default {
           ],
           personal: [
             'Moved to Portugal with family',
-            'Started acoustic guitar playing',
+            'Continued lifelong guitar passion (playing since age 16)',
             'Developed interest in vintage watches (Vostok collection)',
             'Embraced European football culture (maintained Palmeiras loyalty)'
           ]
@@ -260,6 +260,7 @@ export default {
           ],
           personal: [
             'Born and raised in São Paulo, Brazil',
+            'Started playing acoustic guitar at age 16',
             'Discovered passion for technology',
             'Started building first websites',
             'Began lifelong learning journey'
