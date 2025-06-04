@@ -1,34 +1,33 @@
-# Ricardo Zein - Portfolio
+# Ricardo Zein - Career Changelog Portfolio
 
-Professional portfolio website showcasing 20+ years of experience as a Senior Solutions Architect.
+Modern changelog-style portfolio showcasing 20+ years of professional evolution as a Senior Solutions Architect.
 
-## Overview
+## Concept
 
-Modern, responsive portfolio built with Astro featuring Japanese-inspired design aesthetics and custom CSS illustrations. Optimized for performance and professional presentation.
+This portfolio presents my career journey as a software changelog, with each major milestone represented as a version release:
+
+- **v5.2.1** - Current role as Senior Solutions Architect @ AirFleet
+- **v5.0.0** - Transition to solutions architecture and team leadership  
+- **v4.0.0** - Senior developer and technical leadership era
+- **v3.0.0** - Full-stack web developer evolution
+- **v2.0.0** - Professional web developer establishment
+- **v1.0.0** - Initial web development journey
 
 ## Features
 
-- **Responsive Design**: Perfect experience across all devices
-- **Japanese Aesthetic**: Clean, minimalist design with traditional color harmony
-- **Custom Illustrations**: CSS-based icons for personal interests and hobbies
-- **Performance Optimized**: Fast loading with modern web standards
-- **Professional Branding**: Clear positioning and authentic personal touches
+- **Modern Design**: Dark theme with neon accents inspired by developer tools
+- **Responsive Layout**: Perfect experience across all devices
+- **Changelog Format**: Professional milestones as version releases
+- **Vue 3 + Vite**: Modern, fast, and maintainable architecture
+- **Performance Optimized**: Minimal bundle size and fast loading
 
 ## Technical Stack
 
-- **Framework**: Astro
-- **Styling**: Custom CSS with design system
-- **Typography**: Inter font family
-- **Icons**: Custom CSS illustrations
-- **Deployment**: Netlify
-
-## Content Highlights
-
-- Senior Solutions Architect with enterprise experience
-- Global team leadership and remote collaboration expertise
-- Marketing automation and CMS architecture specialization
-- Personal interests: fountain pens, acoustic guitar, vintage gaming, watches
-- Current reading and literary preferences
+- **Framework**: Vue 3 with Composition API
+- **Build Tool**: Vite for fast development and optimized builds
+- **Styling**: Custom CSS with CSS variables and modern features
+- **Typography**: JetBrains Mono + Inter for developer aesthetic
+- **Deployment**: Netlify with automatic builds
 
 ## Development
 
@@ -46,9 +45,27 @@ npm run build
 npm run preview
 ```
 
+## Content Structure
+
+Each career version includes:
+- **Added**: New skills, technologies, and capabilities
+- **Improved**: Enhanced existing skills and methodologies  
+- **Personal**: Life changes, interests, and personal growth
+
+## Professional Highlights
+
+- Senior Solutions Architect with enterprise experience
+- Global team leadership and remote collaboration expertise
+- Marketing automation and CMS architecture specialization
+- 20+ years of continuous learning and adaptation
+- Personal interests: fountain pens, acoustic guitar, vintage gaming, watches
+
 ## Deployment
 
-Deployed via Netlify with automatic builds from the main branch.
+Automatically deployed via Netlify from the main branch with:
+- Node.js 22 environment
+- SPA redirects for client-side routing
+- Optimized build process
 
 ---
 

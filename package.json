@@ -1,14 +1,19 @@
 {
-  "name": "ricardo-portfolio",
+  "name": "ricardo-zein-portfolio",
+  "private": true,
+  "version": "2.0.0",
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "astro": "^5.8.1"
+    "vue": "^3.4.0",
+    "@vueuse/core": "^10.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
   }
 }
