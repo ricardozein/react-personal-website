@@ -1,33 +1,35 @@
-# Ricardo Zein - Career Changelog Portfolio
+# Ricardo Zein - Portfolio
 
-Modern changelog-style portfolio showcasing 20+ years of professional evolution as a Senior Solutions Architect.
+Elegant professional portfolio showcasing 20+ years of experience as a Senior Solutions Architect.
 
-## Concept
+## Overview
 
-This portfolio presents my career journey as a software changelog, with each major milestone represented as a version release:
-
-- **v5.2.1** - Current role as Senior Solutions Architect @ AirFleet
-- **v5.0.0** - Transition to solutions architecture and team leadership  
-- **v4.0.0** - Senior developer and technical leadership era
-- **v3.0.0** - Full-stack web developer evolution
-- **v2.0.0** - Professional web developer establishment
-- **v1.0.0** - Initial web development journey
+A sophisticated Vue.js portfolio with clean design, thoughtful typography, and professional presentation. Built for performance and optimized for all devices.
 
 ## Features
 
-- **Modern Design**: Dark theme with neon accents inspired by developer tools
-- **Responsive Layout**: Perfect experience across all devices
-- **Changelog Format**: Professional milestones as version releases
-- **Vue 3 + Vite**: Modern, fast, and maintainable architecture
-- **Performance Optimized**: Minimal bundle size and fast loading
+- **Clean Design**: Sophisticated color palette with elegant blue accents
+- **Professional Layout**: Clear sections for expertise, experience, and personal interests
+- **Smooth Navigation**: Fixed header with smooth scrolling between sections
+- **Responsive**: Perfect experience across desktop, tablet, and mobile
+- **Performance Optimized**: Vue 3 + Vite for fast loading and optimal performance
 
 ## Technical Stack
 
-- **Framework**: Vue 3 with Composition API
-- **Build Tool**: Vite for fast development and optimized builds
-- **Styling**: Custom CSS with CSS variables and modern features
-- **Typography**: JetBrains Mono + Inter for developer aesthetic
-- **Deployment**: Netlify with automatic builds
+- **Framework**: Vue 3
+- **Build Tool**: Vite
+- **Styling**: Custom CSS with modern design system
+- **Typography**: Inter + JetBrains Mono
+- **Deployment**: Netlify
+
+## Sections
+
+- **Hero**: Professional introduction with call-to-action
+- **About**: Personal story and professional summary
+- **Expertise**: Core competencies and technical skills
+- **Experience**: Career timeline from 2001 to present
+- **Beyond Code**: Personal interests and hobbies
+- **Contact**: Professional contact information
 
 ## Development
 
@@ -45,27 +47,9 @@ npm run build
 npm run preview
 ```
 
-## Content Structure
-
-Each career version includes:
-- **Added**: New skills, technologies, and capabilities
-- **Improved**: Enhanced existing skills and methodologies  
-- **Personal**: Life changes, interests, and personal growth
-
-## Professional Highlights
-
-- Senior Solutions Architect with enterprise experience
-- Global team leadership and remote collaboration expertise
-- Marketing automation and CMS architecture specialization
-- 20+ years of continuous learning and adaptation
-- Personal interests: fountain pens, acoustic guitar, vintage gaming, watches
-
 ## Deployment
 
-Automatically deployed via Netlify from the main branch with:
-- Node.js 22 environment
-- SPA redirects for client-side routing
-- Optimized build process
+Automatically deployed via Netlify from the main branch.
 
 ---
 
