@@ -8,15 +8,15 @@
 }
 
 :root {
-  /* Sophisticated color palette */
-  --color-bg: #fafaf9;
-  --color-bg-alt: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-light: #666666;
-  --color-accent: #2c5aa0;
-  --color-accent-dark: #1e3a6f;
-  --color-border: #e8e8e8;
-  --color-gray-light: #f5f5f5;
+  /* Dark professional palette */
+  --color-bg: #0f1419;
+  --color-bg-alt: #1a1f2e;
+  --color-text: #ffffff;
+  --color-text-light: #a0a0a0;
+  --color-accent: #0066ff;
+  --color-accent-dark: #0052cc;
+  --color-border: #2a2f3a;
+  --color-gray-light: #1a1f2e;
   
   /* Warm accent (brass/amber) */
   --color-warm: #eab308;
@@ -84,7 +84,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(15, 20, 25, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
   z-index: 1000;
@@ -135,30 +135,11 @@ body {
 
 .hero-bg {
   position: absolute;
-  inset: -2rem;
+  inset: 0;
   z-index: -1;
-  background:
-    radial-gradient(1100px 700px at 120% -10%, rgba(44, 90, 160, 0.18), transparent 60%),
-    radial-gradient(900px 600px at -10% 110%, rgba(44, 90, 160, 0.12), transparent 60%),
-    conic-gradient(from 220deg at 85% 20%, rgba(44, 90, 160, 0.10), transparent 25%),
-    linear-gradient(180deg, #ffffff 0%, #fbfbfd 100%);
+  background: var(--color-bg);
 }
 
-.hero-bg::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.35;
-  background:
-    repeating-linear-gradient(90deg,
-      rgba(15, 23, 42, 0.04) 0 1px,
-      transparent 1px 28px),
-    repeating-linear-gradient(0deg,
-      rgba(15, 23, 42, 0.035) 0 1px,
-      transparent 1px 28px);
-  mask-image: radial-gradient(1200px 800px at 60% 20%, black, transparent 70%);
-}
 
 .hero-wrap {
   display: grid;
@@ -172,19 +153,12 @@ body {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 800;
-  margin-bottom: 0.5rem;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
   color: var(--color-text);
-  background: linear-gradient(135deg, 
-    var(--color-text) 0%, 
-    var(--color-text) 60%,
-    var(--color-accent) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .hero-subtitle {

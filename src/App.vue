@@ -19,8 +19,7 @@
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="container hero-wrap">
         <div class="hero-content">
-          <h1 class="hero-title">Ricardo Zein</h1>
-          <p class="hero-subtitle">Senior Solutions Architect</p>
+          <h1 class="hero-title">I'm Ricardo Zein,<br>a Senior Solutions Architect</h1>
           <p class="hero-description">
             Designing and delivering enterprise-grade platforms, cloud architectures, and integrations for over 20 years
           </p>
@@ -32,7 +31,7 @@
         <div class="hero-visual">
           <div class="hero-portrait">
             <div class="hero-ring" aria-hidden="true"></div>
-            <img src="/profile-placeholder.svg" alt="Ricardo Zein - Senior Solutions Architect" class="hero-image" loading="eager" />
+            <img src="/profile.jpg" alt="Ricardo Zein - Senior Solutions Architect" class="hero-image" loading="eager" />
           </div>
         </div>
       </div>
