@@ -15,21 +15,24 @@
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">Ricardo Zein</h1>
-        <p class="hero-subtitle">Senior Solutions Architect</p>
-        <p class="hero-description">
-          Crafting enterprise solutions with 20+ years of expertise
-        </p>
-        <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">Get in touch</a>
-          <a href="#about" class="btn btn-secondary">Learn more</a>
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-wrap">
+        <div class="hero-content">
+          <h1 class="hero-title">Ricardo Zein</h1>
+          <p class="hero-subtitle">Senior Solutions Architect</p>
+          <p class="hero-description">
+            Designing and delivering enterprise-grade platforms, cloud architectures, and integrations for over 20 years
+          </p>
+          <div class="hero-cta">
+            <a href="mailto:ricardo.zein@gmail.com" class="btn btn-primary">Get in touch</a>
+            <a href="#about" class="btn btn-secondary">Learn more</a>
+          </div>
         </div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-image-wrapper">
-          <img src="/profile.jpg" alt="Ricardo Zein" class="hero-image" />
-          <div class="hero-decoration"></div>
+        <div class="hero-visual">
+          <div class="hero-portrait">
+            <div class="hero-ring" aria-hidden="true"></div>
+            <img src="/profile.jpg" alt="Ricardo Zein - Senior Solutions Architect" class="hero-image" loading="eager" />
+          </div>
         </div>
       </div>
     </section>
