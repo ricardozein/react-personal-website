@@ -1,0 +1,12 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="480" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="480" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2c5aa0"/>
+      <stop offset="100%" stop-color="#1e3a6f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="240" cy="200" r="70" fill="rgba(255,255,255,0.15)"/>
+  <path d="M140 320 Q240 280 340 320 L340 380 Q240 420 140 380 Z" fill="rgba(255,255,255,0.15)"/>
+  <text x="240" y="450" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="2">RZ</text>
+</svg>
