@@ -6,73 +6,60 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Install dependencies
-yarn install
+npm install
 
-# Start development server (runs on http://localhost:3000)
-yarn dev
+# Start development server (runs on http://localhost:5173)
+npm run dev
 
 # Build for production (outputs to build/ directory)
-yarn build
+npm run build
 
 # Preview production build
-yarn preview
-
-# Run tests
-yarn test
-
-# Run linting
-yarn lint
+npm run preview
 ```
 
 ## Architecture Overview
 
-This is a React 18 personal website built with Vite. The application uses React Router v6 for client-side routing and employs a hybrid styling approach with both SCSS and Emotion CSS-in-JS.
+This is a Vue 3 personal website built with Vite. The application is a single-page application with smooth scrolling navigation.
 
 ### Build System
 
-- **Vite**: Modern build tool replacing Create React App
-- **React 18.3.1**: Latest React version with automatic JSX runtime
+- **Vite 5**: Modern build tool for fast development
+- **Vue 3.4+**: Composition API and modern Vue features
 - **Node 22.x**: Required for Netlify deployment (configured in netlify.toml)
 
 ### Component Structure
 
-- **Website.jsx**: Root component that sets up routing, Helmet provider, and loads Raleway font via WebFontLoader
-- **Pages** (`/src/pages/`): Route-level components
-  - Home-page.jsx: Contains Hero section and About Me content
-  - About-page.jsx, Contact-page.jsx: Additional pages (routes configured but navigation not fully implemented)
-- **Components** (`/src/components/`): Reusable UI components
-  - Header.jsx: Top navigation bar
-  - Hero.jsx: Hero section with background image and responsive design
-  - Nav.jsx: Navigation component (has commented menu items)
-
-### Routing
-
-The app uses react-router-dom v6 with three routes:
-- `/` - Home page
-- `/about` - About page
-- `/contact` - Contact page
+- **App.vue**: Root component containing all sections
+  - Navigation: Fixed header with smooth scroll links
+  - Hero: Professional introduction with gradient background and portrait
+  - About: Personal story and professional details
+  - Expertise: Core competencies grid
+  - Experience: Career timeline
+  - Personal: Beyond code interests
+  - Contact: Professional contact information
 
 ### Styling Approach
 
-The project uses two styling methods:
-1. **SCSS**: Main styles in `/src/assets/css/Website.scss`
-2. **Emotion**: CSS-in-JS for component-specific styles (configured with `@emotion/react`)
-
-Bootstrap v5 is installed but minimally used.
+The project uses custom CSS with a modern design system:
+- **Main styles**: `/src/style.css`
+- **Design tokens**: CSS custom properties (variables) for colors, spacing, and typography
+- **Typography**: Inter (body) + JetBrains Mono (code)
+- **Color palette**: Professional blues (#2c5aa0) with neutral grays
+- **Hero background**: Layered gradients with geometric grid pattern
 
 ### Deployment
 
 - **Netlify**: Configured via `netlify.toml`
-- Build command: `yarn build`
+- Build command: `npm run build`
 - Publish directory: `build/`
 - Node version: 22.x
 - SPA redirects configured for client-side routing
 
 ## Important Notes
 
-- **File Extensions**: All React components use `.jsx` extension
-- **JSX Transform**: Uses React 18's automatic runtime (no need for React imports in JSX files)
-- **Emotion Setup**: Vite is configured with `jsxImportSource: '@emotion/react'` for CSS-in-JS
-- **Navigation**: The Nav component has menu items commented out - uncomment to enable full navigation
-- **Service Worker**: Removed (was part of Create React App)
-- **Test File**: App.test.js references Website component
+- **File Extensions**: Vue components use `.vue` extension
+- **Package Manager**: Uses npm (not yarn)
+- **Smooth Scrolling**: Navigation uses anchor links with smooth scroll behavior
+- **Responsive Design**: Mobile-first approach with breakpoints at 768px and 480px
+- **Performance**: Optimized fonts via Google Fonts preconnect
